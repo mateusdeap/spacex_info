@@ -79,9 +79,6 @@ class UpcomingLaunchesList extends StatelessWidget {
                       launchModel.details,
                       textAlign: TextAlign.justify,
                       softWrap: true,
-                      style: TextStyle(
-                        fontFamily: 'IBM Plex Sans'
-                      ),
                     ),
                   )
                 ],

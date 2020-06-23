@@ -8,6 +8,11 @@ class App extends StatelessWidget {
     return UpcomingLaunchesProvider(
       child: MaterialApp(
         title: 'SpaceX Info',
+        theme: ThemeData(
+          brightness: Brightness.dark,
+          fontFamily: 'IBM Plex Sans'
+        ),
+        themeMode: ThemeMode.dark,
         home: UpcomingLaunchesList(),
       ),
     );
